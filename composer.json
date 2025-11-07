@@ -1,0 +1,21 @@
+{
+    "name": "nonsapiens/msisdn-toolkit",
+    "description": "A collection of libraries, seeders and validators for mobile numbers (MSISDNs). Extensible to other countries, but default supports South Africa",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Nonsapiens\\MsisdnToolkit\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Stuart Steedman",
+            "email": "stuart@steedman.co.za"
+        }
+    ],
+    "require": {
+        "php": "^8.*",
+        "laravel/laravel": "^12.10"
+    }
+}
